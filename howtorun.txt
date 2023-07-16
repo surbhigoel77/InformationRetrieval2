@@ -1,0 +1,20 @@
+1. Create a virtual environment by typing the following command:
+    python3 -m venv venv
+
+2. Activate the virtual environment by typing the following command:
+    source venv/bin/activate
+
+3. Install the dependencies listed in the requirements.txt file:
+    pip install -r requirements.txt
+
+4. Run the Python scripts by typing the following command:
+    python task1.py
+    python task2.py
+
+5. Scripts do not assume any directory structure. They expect the required data files to present in the
+same directory
+
+6. Scripts will create the output file in the same directory with appropriate names (example LR.txt, LM.txt etc.)
+
+
+
